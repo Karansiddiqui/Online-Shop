@@ -64,7 +64,7 @@ const Cart = () => {
           </div>
 
           <div className="cart-summary">
-            <button className="cear-cart">Clear Cart</button>
+            <button className="clear-cart">Clear Cart</button>
             <div className="cart-checkout">
               <div className="subtotal">
                 <span>Subtotal</span>
@@ -72,7 +72,7 @@ const Cart = () => {
               </div>
 
               <p>Taxes and shopping calculated at checkout</p>
-              <button>check out</button>
+              <button>Check out</button>
               <div className="continue-shopping">
                 <Link to="/">
                   <svg
